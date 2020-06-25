@@ -8,7 +8,6 @@ body {
 /* styling the the div with the class headin */
 .headin h1 {
     text-align: center;
-    
 }
 .headin {
     background-color: #C4C4C4;
@@ -21,14 +20,12 @@ body {
     margin: 2px;
     display: inline-block;
     justify-content: space-around;
-    
 }
 .main li {
     display: inline-block;
     margin: 10px 5px;
     color: black;
 }
-
 .main li a {
     text-decoration: none;
     color: rgb(3, 2, 0);
@@ -36,7 +33,6 @@ body {
     font-family: "Roboto", sans-serif;
     letter-spacing: 2px;
 }
-
 .main li a:hover {
     background: #fff;
     transition: 45;
@@ -87,7 +83,6 @@ button {
     text-align: center;
     color: #0944DC;
 }
-
 button:hover {
     background: rgb(51, 185, 112);
     transition: 45;
@@ -169,7 +164,6 @@ input[type=text], select, textarea {
     border-radius: 4px;
     cursor: pointer;
   }
-  
   input[type=submit]:hover {
     background-color: #45a049;
   }
@@ -183,10 +177,10 @@ input[type=text], select, textarea {
     border-radius: 4px;
     cursor: pointer;
   }
-
   input[type=reset]:hover {
     background-color: #45a049;
   }
+
   /* styling the section with the class container */
   .container {
     border-radius: 5px;
