@@ -43,8 +43,6 @@ body {
     color: #000;
 }
 
-
-
 /* styling the section with the div class center */
 .center {
     text-align: center;
@@ -134,7 +132,6 @@ button:hover {
     margin-left: 0px;
 }
 
-
 /* styling the section with the class experties */
 .experties {
     float: left;
@@ -150,7 +147,6 @@ button:hover {
 .merge {
     margin-top: 10px;
 }
-
 
 /* styling input form for submmition */
 input[type=text], select, textarea {
