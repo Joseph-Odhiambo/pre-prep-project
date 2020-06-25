@@ -1,18 +1,21 @@
+/* body section */
 body {
     background-color: #E5E5E5;
     margin-left: 10px;
     margin-right: 10px;
 }
 
+/* styling the the div with the class headin */
 .headin h1 {
     text-align: center;
     
 }
-
 .headin {
     background-color: #C4C4C4;
     background-size: cover;
 }
+
+/* styling the nar bar with the class main */
 .main {
     list-style: none;
     margin: 2px;
@@ -20,7 +23,6 @@ body {
     justify-content: space-around;
     
 }
-
 .main li {
     display: inline-block;
     margin: 10px 5px;
@@ -41,6 +43,41 @@ body {
     color: #000;
 }
 
+
+
+/* styling the section with the div class center */
+.center {
+    text-align: center;
+    background-image: url("/Images/11.jpg");
+    background-size: cover;
+}
+#p1 {
+    text-align: center;
+    font-family: Radley;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #2318A3;
+}
+#p2 {
+    font-family: Radley;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+}
+#p3 {
+    font-family: Radley;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F4F9F9;
+}
+
+/* styling button for read more */
 button {
     margin-bottom: 8px;
     font-family: sans-serif;
@@ -60,52 +97,8 @@ button:hover {
     border-radius: 4px;
     cursor: pointer; 
 }
-#p1 {
-    text-align: center;
-    font-family: Radley;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    color: #2318A3;
-}
 
-#p2 {
-    font-family: Radley;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 25px;
-    align-items: center;
-    text-align: center;
-}
-
-#p3 {
-    font-family: Radley;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
-    color: #F4F9F9;
-}
-
-.experties {
-    float: left;
-    display: flex;
-    justify-content: space-around;
-    display: inline-flex;
-    margin-bottom: 10PX;
-}
-
-.merge {
-    margin-top: 10px;
-}
-
-.center {
-    text-align: center;
-    background-image: url("/Images/11.jpg");
-    background-size: cover;
-}
-
+/* styling the section with the class items */
 .items {
     width: 100%;
     display: flex;
@@ -120,12 +113,6 @@ button:hover {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.reason {
-    background-color: #ECB2B6;
-    margin-right: 10px;
-}
-
 #s1 {
     background-color: #A1CBB1;
     width: 450px;
@@ -134,22 +121,38 @@ button:hover {
     background-color: #DFB4D3;
     width: 450px;
 }
-
 #s3 {
     background-color: #AAAFDB;
     width: 450px;
 }
-
 .imagess {
     max-width: 100%;
     justify-content: space-around;
     width: 450px;
 }
-
 .designe:first-of-type {
     margin-left: 0px;
 }
 
+
+/* styling the section with the class experties */
+.experties {
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    display: inline-flex;
+    margin-bottom: 10PX;
+}
+.reason {
+    background-color: #ECB2B6;
+    margin-right: 10px;
+}
+.merge {
+    margin-top: 10px;
+}
+
+
+/* styling input form for submmition */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -161,6 +164,7 @@ input[type=text], select, textarea {
     resize: vertical;
   }
   
+  /* styling submmition button */
   input[type=submit] {
     background-color: #4CAF50;
     color: white;
@@ -174,6 +178,7 @@ input[type=text], select, textarea {
     background-color: #45a049;
   }
 
+  /* styling reset button */
   input[type=reset] {
     background-color: #4CAF50;
     color: white;
@@ -186,14 +191,13 @@ input[type=text], select, textarea {
   input[type=reset]:hover {
     background-color: #45a049;
   }
-  
+  /* styling the section with the class container */
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
     float: left;
   }
-
   .container p {
     font-family: Radley;
     font-style: normal;
