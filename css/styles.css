@@ -118,6 +118,7 @@ button:hover {
     margin-left: 10px;
     margin-right: auto;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .reason {
@@ -127,18 +128,22 @@ button:hover {
 
 #s1 {
     background-color: #A1CBB1;
+    width: 450px;
 }
 #s2 {
     background-color: #DFB4D3;
+    width: 450px;
 }
 
 #s3 {
     background-color: #AAAFDB;
+    width: 450px;
 }
 
 .imagess {
     max-width: 100%;
     justify-content: space-around;
+    width: 450px;
 }
 
 .designe:first-of-type {
