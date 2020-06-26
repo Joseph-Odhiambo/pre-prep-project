@@ -106,6 +106,7 @@ button:hover {
     margin-bottom: 10px;
     text-align: center;
 }
+
 #s1 {
     background-color: #A1CBB1;
     width: 450px;
@@ -138,6 +139,7 @@ button:hover {
 .reason {
     background-color: #ECB2B6;
     margin-right: 10px;
+    padding-left: 5px;
 }
 .merge {
     margin-top: 10px;
